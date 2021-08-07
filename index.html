@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+<body>
+  <div class="mainContainer">
+    <div class="header">
+      <h1 id='headerTitle'>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+      <hr />
+      <div class="mode">
+        <p>Dark Mode</p>
+        <div class="toggleContainer">
+          <label for="toggle" class="toggleLabel">
+            <input type="checkbox" id="toggle" />
+            <div class="toggleCheck"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="topContainer">
+
+      <div class="topCard facebook" id='cardDark'>
+        <div class="cardHeader">
+          <img src="./images/icon-facebook.svg" alt="icon-facebook" />
+          <p class='userId'> @nathanf</p>
+        </div>
+        <h2 class='total'>1987</h2>
+        <p>Followers</p>
+        <div class="mark">
+          <img src="./images/icon-up.svg" alt="icon-up" />
+          <p class="today">12 today</p>
+        </div>
+      </div>
+
+      <div class="topCard twitter id='cardDark'">
+        <div class="cardHeader">
+          <img src="./images/icon-twitter.svg" alt="icon-twitter" />
+          <p class='userId'> @nathanf</p>
+        </div>
+        <h2 class='total'>1044</h2>
+        <p>Followers</p>
+        <div class="mark">
+          <img src="./images/icon-up.svg" alt="icon-up" />
+          <p  class="today">99 today</p>
+        </div>
+      </div>
+
+      <div class="topCard instagram" id='cardDark'>
+        <div class="cardHeader">
+          <img src="./images/icon-instagram.svg" alt="icon-instagram" />
+          <p class='userId'> @nathanf</p>
+        </div>
+        <h2 class='total'>11K</h2>
+        <p>Followers</p>
+        <div class="mark">
+          <img src="./images/icon-up.svg" alt="icon-up" />
+          <p class="today">1099 today</p>
+        </div>
+      </div>
+
+      <div class="topCard youtube" id='cardDark'>
+        <div class="cardHeader">
+          <img src="./images/icon-youtube.svg" alt="icon-youtube" />
+          <p class='userId'> @nathanf</p>
+        </div>
+        <h2 class='total'>8239</h2>
+        <p>Subscribers</p>
+        <div class="mark">
+          <img src="./images/icon-down.svg" alt="icon-down" />
+          <p class="today">144 today</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="middleContainer">
+      <h2 id="overview">Overview - Today</h2>
+
+      <div class="middleCardFirst">
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Page Views</p>
+            <img src="./images/icon-facebook.svg" alt="icon-facebook">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">87</p>
+            <span>
+              <img src="./images/icon-up.svg" alt="icon-up">
+              <p>3%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Likes</p>
+            <img src="./images/icon-facebook.svg" alt="icon-facebook">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">52</p>
+            <span>
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="down">2%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">5462</p>
+            <span>
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p>2257%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Profile Views</p>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">52k</p>
+            <span>
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p>1375%</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="middleCardSecond">
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Retweets</p>
+            <img src="./images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">117</p>
+            <span>
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p>303%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Likes</p>
+            <img src="./images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">507</p>
+            <span>
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p>507%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Likes</p>
+            <img src="./images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">107</p>
+            <span>
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="down">19%</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="middleCard">
+          <div class="topSection">
+            <p class="status">Total Views</p>
+            <img src="./images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="bottomSection">
+            <p class="totalToday">1407</p>
+            <span>
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="down">12%</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
